@@ -2,8 +2,8 @@
 # See https://jekyllrb.com/docs/configuration/ to further customize this file
 # Defaults settings https://jekyllrb.com/docs/configuration/#default-configuration
 
-title: My Website
-description: "A short description of your project"
+title: Grasp State Classification in Agricultural Envrionments
+# description: "A short description of your project"
 
 url: # (optional) https://example.com, defaults to http://localhost:4000 in development
 

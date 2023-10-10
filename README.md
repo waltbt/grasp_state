@@ -7,14 +7,31 @@ The agricultural setting poses additional challenges for robotic manipulation, a
 
 ## What is Grasp State?
 <!-- <img src="./images/state_v2.png" alt="drawing" width="600"/> -->
-![alt text](./images/state_v2.png){width=600}
+![alt text](./images/state_v2.png)
+Grasp State changes during the grasping process.  It starts with closing the gripper and ends in either a _Successful Grasp_ or _Failed Grasp_ state. It will passthough the _Slip_ or _No Slip_ states - possibly several times.  To get to a _Successful Grasp_ it must experience a _Separation Event_.
+
+## Hardware
+Insert Hardware Picture  
+<!--![alt text](./images/state_v2.png)-->
+### Sensors
+Three Inertial Measurement Units (IMU) and one IR reflectance sensor were attached to a two finger, pneumatically actuated gripper.  This data was collected at 150Hz.
+### Training Rig
+To simulate tomato picking in the lab, a training rig was created.  To simulate attachment, the tomato was attached to a string.  When fixed in place, this allowed us to induce slip.  A electromagnet actuated quick release mechanism was used to simulate separation.  Picking was performed with a 6 DOF arm (xArm6, [UFACTORY](https://www.ufactory.cc/).
+## Pipeline
+Insert Pipeline Picture  
+<!--![alt text](./images/state_v2.png)-->
+To perform the classification, a Random Forest Classifier was use.  The IMU data (Linear and Rotational acceleration for each axis) is passed through a Fast Fourier Transform (FFT) using a 25 sample window.  This data along with the IR sensor data (A single value giving a sense of presence) is passed to the Random Forest Classifier which outputs the classification.
 
 ## Training
-
+Insert LInk to Video  
 
 ## Testing
+Insert LInk to Video  
 
 ## Results
-
+Insert Results data Picture  
+Which ones???  
+<!--![alt text](./images/state_v2.png)-->
 
 ## Conclusion
+This work shows promising results for grasp state classification, but it lacks robustness.  More work is needed to address the weaknesses in differentiating between similar states and dealing with rotational slip.  It is necessary to make use of these classfications within a harvesting pipeline to take action and improve efficiency.

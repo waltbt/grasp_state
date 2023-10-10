@@ -2,7 +2,7 @@
 # See https://jekyllrb.com/docs/configuration/ to further customize this file
 # Defaults settings https://jekyllrb.com/docs/configuration/#default-configuration
 
-title: Grasp State Classification in Agricultural Envrionments
+title: Grasp State Classification in Agricultural Manipulation
 # description: "A short description of your project"
 
 url: # (optional) https://example.com, defaults to http://localhost:4000 in development

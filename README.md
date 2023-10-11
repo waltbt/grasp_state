@@ -24,10 +24,14 @@ To perform the classification, a Random Forest Classifier was use.  The IMU data
 
 ## Training
 Insert LInk to Video  
-![alt text](./images/IROS_2023_Video_test_clip.mp4)
+<a href="https://youtu.be/fLs-3vTcl8Q">
+  <img src="https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fyoutu.be%2FfLs-3vTcl8Q" alt="test" title="test"/>
+</a>
 
 ## Testing
-Insert LInk to Video  
+<a href="https://youtu.be/rsaeQfOXlQY">
+  <img src="https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fyoutu.be%2FrsaeQfOXlQY" alt="test" title="test"/>
+</a>
 
 ## Results
 Insert Results data Picture  
